@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <title>Computer Parts Catalog</title>
+    <parts>
+        <!-- CPU parts -->
+        <part category="CPU">
+            <!-- Assuming name/description/brand/price/image are each a field to add to a total of 5 fields -->
+            <!-- Also note to marker, the sorting for cpus are difficult because of their name and price isnt sorting right however the other pages sort correctly
+            Also the search bar works perfectly on all pages-->
+            <name>Core i9 12900k</name>
+            <description>Central Processing Unit</description>
+            <brand>Intel</brand>
+            <price>$1399.98</price>
+            <image>images/cpu1.jpg</image>
+        </part>
+        <part category="CPU">
+            <name>Ryzen 9 5900x</name>
+            <description>Central Processing Unit</description>
+            <brand>AMD</brand>
+            <price>$539.99</price>
+            <image>images/cpu2.jpg</image>
+        </part>
+        <part category="CPU">
+            <name>Core i7 10700F</name>
+            <description>Central Processing Unit</description>
+            <brand>Intel</brand>
+            <price>$739.99</price>
+            <image>images/cpu3.jpg</image>
+        </part>
+        <part category="CPU">
+            <name>Ryzen 7 7700x</name>
+            <description>Central Processing Unit</description>
+            <brand>AMD</brand>
+            <price>$659.99</price>
+            <image>images/cpu5.jpg</image>
+        </part>
+        <part category="CPU">
+            <name>i5 13500</name>
+            <description>Central Processing Unit</description>
+            <brand>Intel</brand>
+            <price>$429.99</price>
+            <image>images/cpu4.jpg</image>
+        </part>
+        
+        <!-- Motherboard parts -->
+        <part category="Motherboard">
+            <name>B550M mATX</name>
+            <description>Motherboard</description>
+            <brand>Gigabyte</brand>
+            <price>$218.98</price>
+            <image>images/mobo1.jpg</image>
+        </part>
+        <part category="Motherboard">
+            <name>B760 ATX</name>
+            <description>Motherboard</description>
+            <brand>Gigabyte</brand>
+            <price>$458.98</price>
+            <image>images/mobo2.jpg</image>
+        </part>
+        <part category="Motherboard">
+            <name>Z790 ATX</name>
+            <description>Motherboard</description>
+            <brand>MSI</brand>
+            <price>$528.98</price>
+            <image>images/mobo3.jpg</image>
+        </part>
+        <part category="Motherboard">
+            <name>ROG Strix Z690-F</name>
+            <description>Motherboard</description>
+            <brand>ASUS</brand>
+            <price>$318.98</price>
+            <image>images/mobo4.png</image>
+        </part>
+        <part category="Motherboard">
+            <name>B650E ATX</name>
+            <description>Motherboard</description>
+            <brand>NZXT</brand>
+            <price>$518.98</price>
+            <image>images/mobo5.jpg</image>
+        </part>
+        
+        <!-- GPU parts -->
+        <part category="GPU">
+            <name>GeForce RTX 4090</name>
+            <description>Graphics Processing Unit</description>
+            <brand>ASUS</brand>
+            <price>$3799.78</price>
+            <image>images/gpu1.jpg</image>
+        </part>
+        <part category="GPU">
+            <name>GeForce RTX 4060</name>
+            <description>Graphics Processing Unit</description>
+            <brand>Gigabyte</brand>
+            <price>$648.88</price>
+            <image>images/gpu2.jpg</image>
+        </part>
+        <part category="GPU">
+            <name>GeForce RTX 4070ti</name>
+            <description>Graphics Processing Unit</description>
+            <brand>Gigabyte</brand>
+            <price>$1799.78</price>
+            <image>images/gpu3.jpg</image>
+        </part>
+        <part category="GPU">
+            <name>GeForce RTX 3080</name>
+            <description>Graphics Processing Unit</description>
+            <brand>PNY</brand>
+            <price>$1999.78</price>
+            <image>images/gpu4.jpg</image>
+        </part>
+        <part category="GPU">
+            <name>Radeon RX 7900 XT</name>
+            <description>Graphics Processing Unit</description>
+            <brand>ASUS</brand>
+            <price>$2399.78</price>
+            <image>images/gpu5.jpg</image>
+        </part>
+        <part category="GPU">
+            <name>GeForce RTX 3050</name>
+            <description>Graphics Processing Unit</description>
+            <brand>MSI</brand>
+            <price>$799.78</price>
+            <image>images/gpu6.jpg</image>
+        </part>
+        
+        <!-- Other parts parts -->
+        <part category="Other">
+            <name>iCUE H100x Elite v2</name>
+            <description>CPU Water Cooler</description>
+            <brand>Corsair</brand>
+            <price>$189.99</price>
+            <image>images/other1.jpg</image>
+        </part>
+        <part category="Other">
+            <name>SWANFAN EX12 RGB</name>
+            <description>PC Case Fan</description>
+            <brand>Thermaltake</brand>
+            <price>$49.99</price>
+            <image>images/other2.jpg</image>
+        </part>
+        <part category="Other">
+            <name>SWANFAN EX12 RGB (3 pack)</name>
+            <description>PC Case Fan</description>
+            <brand>Thermaltake</brand>
+            <price>$129.99</price>
+            <image>images/other3.jpg</image>
+        </part>
+        <part category="Other">
+            <name>PC 20+4 Pin Braided Cable</name>
+            <description>PC Cable</description>
+            <brand>GGPC</brand>
+            <price>$19.99</price>
+            <image>images/other4.jpg</image>
+        </part>
+    </parts>
+</catalog>

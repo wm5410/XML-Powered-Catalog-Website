@@ -1,0 +1,158 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 5em;
+    padding: 50px;
+    letter-spacing: 2px; 
+}
+
+.category-link {
+    margin: 0;
+}
+
+/* Transition to make hovering more fluid */
+.category-link a {
+    margin: 0 1em; 
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.8em;
+    letter-spacing: 1px; 
+    transition: color 0.3s ease;
+}
+
+.category-link a:hover {
+    color: #adb5bd;
+}
+
+h2 {
+    text-align: center;
+    color: #525252;
+}
+
+/* Styling for the nav bar */
+.nav {
+    background-color: #495057;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.nav form {
+    display: flex;
+    align-items: center;
+}
+
+.nav input[type="text"] {
+    margin-right: 5px;
+    padding: 5px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 1em;
+}
+
+/* Transition to make the parts increase in size and bring attention to it  */
+.part {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 60px;
+    padding: 1.5em;
+    width: calc(35% - 40px); 
+    box-sizing: border-box; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.part:hover {
+    transform: scale(1.05); 
+}
+
+.part img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px; 
+}
+
+.part h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+
+.part p {
+    margin: 0.5em 0;
+    font-size: 1.4em;
+}
+
+/* Divs and styling for when a single part is selected */
+.details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.details-image {
+    max-width: 30%;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.details-info {
+    max-width: 70%;
+}
+
+button {
+    padding: 10px;
+    background-color: #495057;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #343a40;
+}
+
+/* Styling for the footer */
+.site-footer {
+    background-color: #495057;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.site-footer p {
+    margin: 0;
+    font-size: 1.2em;
+}
