@@ -63,7 +63,7 @@ The topic of this catalog is **computer parts and accessories**, but you can ada
 ## Screenshots 
 
 Home page
-![GET example](pic2.jpg?raw=true "Home page")
+![GET example](pic2.png?raw=true "Home page")
 
 GPU Page
-![GET example](pic1.jpg?raw=true "Home page")
+![GET example](pic1.png?raw=true "Home page")
