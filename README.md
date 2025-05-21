@@ -59,3 +59,11 @@ The topic of this catalog is **computer parts and accessories**, but you can ada
 2. Navigate to `http://<server>/index.php`.  
 3. Use sorting links or search bar to refine the list.  
 4. Click an item’s “Details” button to view its full page (`item.php?id=<n>`).
+
+## Screenshots 
+
+Home page
+![GET example](pic2.jpg?raw=true "Home page")
+
+GPU Page
+![GET example](pic1.jpg?raw=true "Home page")
